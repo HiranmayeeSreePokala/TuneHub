@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <meta name="description" content="Spotify clone made using html,css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="top-icons">
+          <div class="link-flex">
+            <img src="./assets/home.png" alt="Home" />
+            <a href="#">Home</a>
+          </div>
+          <div class="link-flex">
+            <img src="./assets/search.png" alt="Search" />
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="flex-top">
+            <div class="link-flex">
+              <img src="./assets/playlist.png" alt="Library" />
+              <p>Your Library</p>
+            </div>
+            <div class="link-flex">
+              <img src="./assets/plus.png" />
+              <img src="./assets/boxes.png" />
+            </div>
+          </div>
+          <div class="link-flex" style="gap: 0.5rem">
+            <div class="chip">Playlists</div>
+            <div class="chip">Artists</div>
+            <div class="chip">Podcasts & Shows</div>
+          </div>
+          <div class="flex-top">
+            <img src="./assets/search.png" />
+            <p>Recents</p>
+          </div>
+          <div class="albums">
+            <div class="link-flex album-flex">
+              <img src="./assets/bp.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">Blackpink</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+            <div class="link-flex album-flex">
+              <img src="./assets/17.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">Seventeen</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+            <div class="link-flex album-flex">
+              <img src="./assets/exo1.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">EXO</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+            <div class="link-flex album-flex">
+              <img src="./assets/lee.png" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">LE SSERAFIM</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+            <div class="link-flex album-flex">
+              <img src="./assets/new.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">NewJeans</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+            <div class="link-flex album-flex">
+              <img src="./assets/twice.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">Twice</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+            <div class="link-flex album-flex">
+              <img src="./assets/txt.png" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">TXT</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+            <div class="link-flex album-flex">
+              <img src="./assets/sk.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">Straykids</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+            <div class="link-flex album-flex">
+              <img src="./assets/nmixx.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">NMIXX</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+            <div class="link-flex album-flex">
+              <img src="./assets/nctu.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">NCT U</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+            <div class="link-flex album-flex">
+              <img src="./assets/mix1.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">Workout</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="navbar">
+          <div class="link-flex">
+            <img src="./assets/back_navigation.png" />
+            <img src="./assets/forward_navigation.png" />
+          </div>
+          <div class="link-flex" style="gap: 0; column-gap: 0.5rem">
+            <div class="chip">Upgrade</div>
+            <div class="chip">Install App</div>
+          </div>
+        </div>
+        <h3>Recently Played</h3>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/flower.jpeg" class="card-img" />
+            <p class="card-name">Flower</p>
+            <p class="card-description">Blackpink Jisoo</p>
+          </div>
+          <div class="card">
+            <img src="./assets/money.jpeg" class="card-img" />
+            <p class="card-name">Lalisa</p>
+            <p class="card-description">Blackpink Lisa</p>
+          </div>
+          <div class="card">
+            <img src="./assets/solo.jpeg" class="card-img" />
+            <p class="card-name">Solo</p>
+            <p class="card-description">Blackpink Jennie</p>
+          </div>
+          <div class="card">
+            <img src="./assets/gone.jpeg" class="card-img" />
+            <p class="card-name">-R-</p>
+            <p class="card-description">Blackpink Rose</p>
+          </div>
+        </div>
+        <h3>More of what you like</h3>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/loveshot.jpeg" class="card-img" />
+            <p class="card-name">Equal</p>
+            <p class="card-description">Songs you love right now</p>
+          </div>
+          <div class="card">
+            <img src="./assets/shawn.jpeg" class="card-img" />
+            <p class="card-name">On Repeat</p>
+            <p class="card-description">your personalised playlist</p>
+          </div>
+          <div class="card">
+            <img src="./assets/attention.jpeg" class="card-img" />
+            <p class="card-name">Workout</p>
+            <p class="card-description">hits to keep you fresh!</p>
+          </div>
+          <div class="card">
+            <img src="./assets/rover.jpeg" class="card-img" />
+            <p class="card-name">Liked Songs</p>
+            <p class="card-description">Collection</p>
+          </div>
+        </div>
+        <h3>Made for you</h3>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/mix1.jpeg" class="card-img" />
+            <p class="card-name">Discover Weekly</p>
+            <p class="card-description">Your weekly mixtape of fresh music</p>
+          </div>
+          <div class="card">
+            <img src="./assets/mix2.jpeg" class="card-img" />
+            <p class="card-name">Release Radar</p>
+            <p class="card-description">Catch all the latest music from the artists</p>
+          </div>
+          <div class="card">
+            <img src="./assets/m1.jpeg" class="card-img" />
+            <p class="card-name">Discover Weekly</p>
+            <p class="card-description">Your weekly mixtape of fresh music</p>
+          </div>
+          <div class="card">
+            <img src="./assets/m11.jpeg" class="card-img" />
+            <p class="card-name">Release Radar</p>
+            <p class="card-description">Catch all the latest music from the artists</p>
+          </div>
+        </div>
+        <h3>Best artists</h3>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/ts.jpeg" class="card-img" />
+            <p class="card-name">TaylorSwift</p>
+            <p class="card-description">Catch all the latest music from the artists</p>
+          </div>
+          <div class="card">
+            <img src="./assets/1d.jpeg" class="card-img" />
+            <p class="card-name">One Direction</p>
+            <p class="card-description">Catch all the latest music from the artists</p>
+          </div>
+          <div class="card">
+            <img src="./assets/iz.webp" class="card-img" />
+            <p class="card-name">Izone</p>
+            <p class="card-description">Catch all the latest music from the artists</p>
+          </div>
+          <div class="card">
+            <img src="./assets/bts.webp" class="card-img" />
+            <p class="card-name">BTS</p>
+            <p class="card-description">Catch all the latest music from the artists</p>
+          </div>
+        </div>
+      </div>
+      <div class="player">
+        <div class="volume-controls"></div>
+        <div class="player-center">
+          <div class="player-controls">
+            <img
+              style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+              src="./assets/shuffle.png"
+            />
+            <img
+              style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+              src="./assets/previous_musicbar.png"
+            />
+            <img
+              style="height: 2rem; margin-right: 1rem"
+              src="./assets/play_musicbar.png"
+            />
+            <img
+              style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+              src="./assets/next_musicbar.png"
+            />
+            <img
+              style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+              src="./assets/loop.png"
+            />
+          </div>
+          <div class="player-timeline">
+            <span class="current-time">0:00</span>
+            <input
+              type="range"
+              class="timeline-slider"
+              min="0"
+              max="100"
+              step="1"
+              value="0"
+            />
+            <span class="total-time">3:40</span>
+          </div>
+        </div>
+
+        <div class="volume-controls">
+          <img
+            src="./assets/device.png"
+            style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+            alt="Volume"
+          />
+          <img
+            src="./assets/playlist.png"
+            style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+            alt="Settings"
+          />
+          <img
+            src="./assets/music.png"
+            style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+            alt="Fullscreen"
+          />
+          <input
+            type="range"
+            class="volume-slider"
+            min="0"
+            max="100"
+            step="1"
+            value="50"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
