@@ -9,8 +9,8 @@ I used HTML and CSS to design and style the interface. Additionally, I gained ex
 ## Tech Stack
 
 <div align="left">
-  <img alt="HTML5" src="assests/html5.png"/>
-  <img alt="CSS3" src="assests/css.jpg"/> 
+  <img alt="HTML5" src="assests/html.png"/>
+  <img alt="CSS3" src="assests/css.png"/> 
   </div>
 
 ## Features
